@@ -1,0 +1,35 @@
+format = """
+[╭─┤ ](bold green)$all
+[│](bold green)
+[╰─](bold green)$character """
+
+[username]
+show_always = true
+
+[directory]
+home_symbol = " ~"
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[package]
+symbol = " "
+
+[shell]
+format = "[using](grey)[ $indicator](bold blue)"
+disabled = false
+powershell_indicator = ""
+
+[line_break]
+disabled = true
+
+[character]
+format = "$symbol"
+success_symbol = "[❯](bold green)"
+error_symbol = "[✖](bold red)"
